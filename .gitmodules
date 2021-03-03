@@ -1,0 +1,18 @@
+[submodule "agc-applinking-demo"]
+	path = agc-applinking-demo
+	url = https://github.com/AppGalleryConnect/agc-applinking-demo-iOS.git
+[submodule "agc-appmessaging-demo"]
+	path = agc-appmessaging-demo
+	url = https://github.com/AppGalleryConnect/agc-appmessaging-demo-iOS.git
+[submodule "agc-authservice-demo"]
+	path = agc-authservice-demo
+	url = https://github.com/AppGalleryConnect/agc-authservice-demo-iOS.git
+[submodule "agc-cloudfunction-demo"]
+	path = agc-cloudfunction-demo
+	url = https://github.com/AppGalleryConnect/agc-cloudfunction-demo-iOS.git
+[submodule "agc-crash-demo"]
+	path = agc-crash-demo
+	url = https://github.com/AppGalleryConnect/agc-crash-demo-iOS.git
+[submodule "agc-remoteconfiguration-demo"]
+	path = agc-remoteconfiguration-demo
+	url = https://github.com/AppGalleryConnect/agc-remoteconfiguration-demo-iOS.git
