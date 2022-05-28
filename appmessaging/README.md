@@ -5,36 +5,33 @@ English | [中文]()
 ## Table of Contents
 
  * [Introduction](#introduction)
- * [Preparing the Environments](#preparing-the-environments)
+ * [Environment Requirements](#environment-requirements)
  * [Getting Started](#getting-started)
  * [Sample Code](#sample-Code)
- * [Result](#result)
- * [Question or issues](#question-or-issues)
+ * [Technical Support](#technical-support)
  * [License](#license)
 
 ## Introduction
 You can use App Messaging to send relevant messages to users actively using your app to encourage them to use key app functions.
 
-## Preparing the Environments
+## Environment Requirements
 
 * A computer with Xcode installed for app development
-* An iOS device or simulator must support iOS 9 or a later version
+* A device or simulator running iOS 9 or a later version
 
 ## Getting Started
-1. Before running the quickstart app, you need to:
-   1. If you do not have a HUAWEI Developer account, you need to [register an account](https://developer.huawei.com/consumer/en/doc/start/registration-and-verification-0000001053628148) and pass identity verification.
-   2. Use your account to sign in to [AppGallery Connect](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-get-started), create an app, and set Package type to iOS.
-   3. Enable AppMessaging. (For details, please refer to the development guide.)
-   4. Select Project Settings,download the agconnect-services.plist file from AppGallery Connect and copy the agconnect-services.plist file to the project root directory.
 
-## Result
-## Question or issues
-If you have questions about how to use AppGallery Connect Demos, try the following options:  
+1. Check whether you have a HUAWEI ID. If not, [register one](https://developer.huawei.com/consumer/en/doc/start/registration-and-verification-0000001053628148) and pass identity verification.
+2. Use your account to sign in to [AppGallery Connect](https://developer.huawei.com/consumer/en/service/josp/agc/index.html#/), create an app, and set **Platform** to **iOS**.
+3. Enable [App Messaging](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-appmessage-introduction-0000001071884501).
+4. Download the **agconnect-services.plist** file from AppGallery Connect and copy this file to the directory of your Xcode project.
 
-* [Stack Overflow](https://stackoverflow.com/users/14194729/appgallery-connect) is the best place for any programming questions. Be sure to tag your question with appgallery.  
-* [Huawei Developer Forum](https://forums.developer.huawei.com/forumPortal/en/home?fid=0101188387844930001) AppGallery Module is great for general questions, or seeking recommendations and opinions.
+## Technical Support
+If you have any questions about the sample code, try the following:
+- Visit [Stack Overflow](https://stackoverflow.com/questions/tagged/appgallery-connect), submit your questions, and tag them with `appgallery`. Huawei experts will answer your questions.  
+- Go to **AppGallery** in the [HUAWEI Developer Forum](https://forums.developer.huawei.com/forumPortal/en/home?fid=0101188387844930001) and communicate with other developers.
 
-If you run into a bug in our samples, please submit an [issue](https://github.com/AppGalleryConnect/agc-demos/issues) to the Repository. Even better you can submit a [Pull Request](https://github.com/AppGalleryConnect/agc-demos/pulls) with a fix.
+If you encounter any issues when using the sample code, submit your [issues](https://github.com/AppGalleryConnect/agc-ios-demos/issues) or submit a [pull request](https://github.com/AppGalleryConnect/agc-ios-demos/pulls).
 
 ## License
-crash quickstart is licensed under the [Apache License, version 2.0] (http://www.apache.org/licenses/LICENSE-2.0).
+The sample code is licensed under the [Apache License, version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
