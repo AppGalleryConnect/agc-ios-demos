@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C3A7F2C4D1DBD1C1921B5CB /* Pods_CloudDBDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB550E528787AEF6A0F682A /* Pods_CloudDBDemo.framework */; };
+		57340A33F66B4AA2B7C407C2 /* libPods-CloudDBDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE0ADBBE133CF6558C75287 /* libPods-CloudDBDemo.a */; };
 		7E17B4FA24CC15540014990D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E17B4FC24CC15540014990D /* Localizable.strings */; };
 		7E17B54A24CC1C2A0014990D /* BMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E17B53124CC1C2A0014990D /* BMTabBarViewController.m */; };
 		7E17B54B24CC1C2A0014990D /* BMNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E17B53224CC1C2A0014990D /* BMNavigationViewController.m */; };
@@ -77,7 +77,6 @@
 /* Begin PBXFileReference section */
 		0A936E404320E7C9852A5FEE /* Pods-BookManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookManager.release.xcconfig"; path = "Target Support Files/Pods-BookManager/Pods-BookManager.release.xcconfig"; sourceTree = "<group>"; };
 		11CE9C9FD3FD1535DF35EEDA /* Pods-CloudDBDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudDBDemo.debug.xcconfig"; path = "Target Support Files/Pods-CloudDBDemo/Pods-CloudDBDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		1CB550E528787AEF6A0F682A /* Pods_CloudDBDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudDBDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C2B07662C88231148ABA9D /* Pods-BookManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookManager.debug.xcconfig"; path = "Target Support Files/Pods-BookManager/Pods-BookManager.debug.xcconfig"; sourceTree = "<group>"; };
 		7E17B4E024CC0FA60014990D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E17B4F724CC14E80014990D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
@@ -135,6 +134,7 @@
 		7EEBC18724CC0BEE0093A43D /* BookManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookManager.xcdatamodel; sourceTree = "<group>"; };
 		7EEBC18824CC0BEE0093A43D /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		88993F765A2CE0F9DE7F34C9 /* Pods-CloudDBDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudDBDemo.release.xcconfig"; path = "Target Support Files/Pods-CloudDBDemo/Pods-CloudDBDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CDE0ADBBE133CF6558C75287 /* libPods-CloudDBDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CloudDBDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64885AA2535CA7E00C808CD /* agconnect-services.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "agconnect-services.plist"; sourceTree = "<group>"; };
 		F68B1B9F25A59DD30032F342 /* AGCCloudDBObjectTypeInfoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCCloudDBObjectTypeInfoHelper.m; sourceTree = "<group>"; };
 		F68B1BA025A59DD30032F342 /* BookInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookInfo.h; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E76EF7624C5475B0026BEA9 /* libc++.tbd in Frameworks */,
-				0C3A7F2C4D1DBD1C1921B5CB /* Pods_CloudDBDemo.framework in Frameworks */,
+				57340A33F66B4AA2B7C407C2 /* libPods-CloudDBDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +399,7 @@
 			isa = PBXGroup;
 			children = (
 				7E76EF7524C5475B0026BEA9 /* libc++.tbd */,
-				1CB550E528787AEF6A0F682A /* Pods_CloudDBDemo.framework */,
+				CDE0ADBBE133CF6558C75287 /* libPods-CloudDBDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
