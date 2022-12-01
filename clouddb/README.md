@@ -1,32 +1,23 @@
 # CloudDB QuickStart
 
-English | [中文](https://gitee.com/appgallery_connect/agc-ios-demos/tree/master/clouddb)
 
-## Table of Contents
-
- * [Introduction](#Introduction)
- * [Getting Started](#getting-started)
- * [Result](#Result)
- * [License](#license)
- 
 ## Introduction
-This is a quick start sample developed using CloudDB APIs on iOS. 
+It's a quickstart sample demonstrating the CloudDB APIs on iOS. 
 
 ## Getting Started
-
 - Open this project by Xcode.
 
-- Sign in to [AppGallery Connect](https://developer.huawei.com/consumer/en/service/josp/agc/index.html#/myApp) to create your app. 
+- Go to [AppGallery Connect page](https://developer.huawei.com/consumer/cn/service/josp/agc/index.html#/myApp) to create your new application. 
 
-- Go to **Auth Service** and enable the **HUAWEI ID** authentication mode.
+- Go to **Auth** tab and enable **Huawei account** authentication.
 
-- Go to **Cloud DB** and enable Cloud DB. Then import the object type in **CloudDBQuickStart_1.json** in the root directory of project. Alternatively, create an object type named **BookInfo**, and ensure that all fields must be the same as those in **BookInfo.java** in the project.
+- Go to **Cloud Database** tab and enable database service, and import the object type in CloudDBQuickStart_1.json under the root directory of project. Or you can create it with name **BookInfo**, and add all fields in BookInfo.java in the sample project.
 
-- Go to **Project settings** > **General information**, download the **agconnect-services.plist** file from the **App information** area, and copy it to the **app** directory.
+- Download agconnect-services.plist from **Generate view** tab, and add it under app directory.
 
-- Run the **pod install** command to associate the relevant libraries.
+- Before starting the operation, the pod install operation needs to be executed to associate the relevant libraries.
 
-- Run the sample on an iOS device or Xcode simulator. 
+- Run the sample on iOS device. 
 
 ## Result
 
@@ -34,4 +25,4 @@ This is a quick start sample developed using CloudDB APIs on iOS.
 
 ## License
 
-The sample code is licensed under the [Apache License, version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+CloudDB QuickStart is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).

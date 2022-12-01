@@ -1,12 +1,5 @@
 # CloudDB 快速入门
-中文 | [English](https://gitee.com/appgallery_connect/agc-ios-demos/tree/master/clouddb/README.md)
 
-## 目录
-
-- [简介](#简介)
-- [快速入门](#快速入门)
-- [结果](#结果)
-- [许可证](#许可证)
 
 ## 简介
 本工程是用CloudDB APIs开发的一个入门示例。
@@ -16,19 +9,20 @@
 
 - 在[应用市场我的应用]( https://developer.huawei.com/consumer/cn/service/josp/agc/index.html#/myApp )页面新建一个应用。
 
-- 在导航栏中，选择**认证服务**，开启**华为账号**认证服务。
+- 在**认证服务**一栏，开启**华为账号**认证服务。
 
-- 在导航栏中，选择**云数据库**，选择开启服务，然后创建对象类型。可以选择从文件导入，模板文件预放在工程根目录的CloudDBQuickStart_1.json中；也可以自己从新创建，对象类型的名称必须为**BookInfo**，所有字段需要和工程中BookInfo.h的字段相同。
+- 在**云数据库**一栏，选择开启服务，然后创建Schema信息。可以选择从文件导入，模板文件预放在工程根目录的CloudDBQuickStart_1.json中；也可以自己从新创建，Schema的名称必须为**BookInfo**，所有字段需要和工程中BookInfo.h的字段相同。
 
 - 从概览页下载agconnect-services.plist文件，添加到app目录下。
 
 - 启动运行前，需要执行pod install操作，关联相关库。
 
-- 在你的iOS设备或Xcode模拟器上运行示例。
+
+- 在你的iOS设备或Xcode 模拟器上运行示例。
 
 ## 结果
 
-<img src="./screenshot_zh.jpg" height="550" width="320" />
+<img src="./screenshot.jpg" height="550" width="320" />
 
 ## 许可证
 
