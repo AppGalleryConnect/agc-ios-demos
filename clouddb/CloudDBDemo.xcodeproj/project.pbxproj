@@ -36,7 +36,6 @@
 		7EEBC18C24CC0BEE0093A43D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEBC18324CC0BEE0093A43D /* main.m */; };
 		7EEBC18D24CC0BEE0093A43D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEBC18424CC0BEE0093A43D /* AppDelegate.m */; };
 		7EEBC18F24CC0BEE0093A43D /* BookManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EEBC18624CC0BEE0093A43D /* BookManager.xcdatamodeld */; };
-		F64885AB2535CA7E00C808CD /* agconnect-services.plist in Resources */ = {isa = PBXBuildFile; fileRef = F64885AA2535CA7E00C808CD /* agconnect-services.plist */; };
 		F68B1BA425A59DD30032F342 /* AGCCloudDBObjectTypeInfoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F68B1B9F25A59DD30032F342 /* AGCCloudDBObjectTypeInfoHelper.m */; };
 		F68B1BA525A59DD30032F342 /* BookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F68B1BA225A59DD30032F342 /* BookInfo.m */; };
 		F6CBF6052537E14500A0C335 /* BookInfo+DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CBF6042537E14500A0C335 /* BookInfo+DataManager.m */; };
@@ -131,7 +130,6 @@
 		7EEBC18824CC0BEE0093A43D /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		88993F765A2CE0F9DE7F34C9 /* Pods-CloudDBDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudDBDemo.release.xcconfig"; path = "Target Support Files/Pods-CloudDBDemo/Pods-CloudDBDemo.release.xcconfig"; sourceTree = "<group>"; };
 		CDE0ADBBE133CF6558C75287 /* libPods-CloudDBDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CloudDBDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F64885AA2535CA7E00C808CD /* agconnect-services.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "agconnect-services.plist"; sourceTree = "<group>"; };
 		F68B1B9F25A59DD30032F342 /* AGCCloudDBObjectTypeInfoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCCloudDBObjectTypeInfoHelper.m; sourceTree = "<group>"; };
 		F68B1BA025A59DD30032F342 /* BookInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookInfo.h; sourceTree = "<group>"; };
 		F68B1BA125A59DD30032F342 /* AGCCloudDBObjectTypeHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCCloudDBObjectTypeHeaders.h; sourceTree = "<group>"; };
@@ -193,7 +191,6 @@
 		7E17B4FF24CC1C2A0014990D /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				F64885AA2535CA7E00C808CD /* agconnect-services.plist */,
 			);
 			path = Framework;
 			sourceTree = "<group>";
@@ -411,7 +408,6 @@
 				7E8D5AE424B032370086F307 /* Resources */,
 				7E6586B124C184BD00D8A284 /* Embed Frameworks */,
 				4B916548A1764697DFE9055E /* [CP] Copy Pods Resources */,
-				85FD6D05E7DBEE65F169929F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -513,7 +509,6 @@
 				7E17B4FA24CC15540014990D /* Localizable.strings in Resources */,
 				7E17B54D24CC1C2A0014990D /* LICENSE in Resources */,
 				7EEBC18924CC0BEE0093A43D /* Assets.xcassets in Resources */,
-				F64885AB2535CA7E00C808CD /* agconnect-services.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,23 +544,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CloudDBDemo/Pods-CloudDBDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		85FD6D05E7DBEE65F169929F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CloudDBDemo/Pods-CloudDBDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CloudDBDemo/Pods-CloudDBDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CloudDBDemo/Pods-CloudDBDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AA2EEB0EF34A0A64B8235475 /* [CP] Check Pods Manifest.lock */ = {
